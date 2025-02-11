@@ -18,8 +18,7 @@
         </svg>
         <span class="sr-only mx-auto">Info</span>
         <div class="ms-3 text-sm font-medium">
-            A simple info alert with an <a href="#" class="font-semibold underline hover:no-underline">example link</a>.
-            Give it a click if you like.
+            Medio informativo creado por <a href="#" class="font-semibold underline hover:no-underline">estudiantes</a>
         </div>
     </div>
 
@@ -43,7 +42,7 @@
                     </li>
                     <li>
                         <div class="flex items-center">
-                            <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true"
+                            <svg class="rtl:rotate-180 w-3 h-3 text-gray-500 mx-1" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2" d="m1 9 4-4-4-4" />
@@ -54,12 +53,12 @@
                     </li>
                     <li aria-current="page">
                         <div class="flex items-center">
-                            <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true"
+                            <svg class="rtl:rotate-180 w-3 h-3 text-gray-500 mx-1" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2" d="m1 9 4-4-4-4" />
                             </svg>
-                            <span class="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">Introducción
+                            <span class="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-500">Introducción
                                 a
                                 python</span>
                         </div>
@@ -67,32 +66,77 @@
                 </ol>
             </nav>
             <!--Section-->
-            <p class="text-lg font-semibold mt-2 mb-2 font-mono">Introducción a Python
+            <p class="text-lg font-semibold mt-2 mb-2">Introducción a Python
             </p>
             <div class="flex items-center mb-2">
                 <div
                     class="relative inline-flex items-center justify-center w-6 h-6 overflow-hidden bg-gray-100 rounded-full">
                     <span class="font-medium text-xs text-gray-600 ">FA</span>
                 </div>
-                <p class="text-xs text-gray-400 mx-2">Facundo Ahumada</p>
+                <p class="text-xs text-gray-500 mx-2">Facundo Ahumada</p>
             </div>
-            <hr>
             <div class="my-4">
-                <span class="flex items-center"><svg class="w-5 h-5 me-2 shrink-0" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
-                            clip-rule="evenodd"></path>
-                    </svg>¿Qué es Python?</span>
-                <p class="text-base">Python es un lenguaje de programación de alto nivel, interpretado y
-                    de
-                    propósito
-                    general, conocido
-                    por su simplicidad y legibilidad. Fue creado por <b
-                        class="underline decoration-sky-500 decoration-wavy">Guido van Rossum</b> en 1991 y se utiliza
-                    ampliamente
-                    en diversas áreas como desarrollo web, análisis de datos, inteligencia artificial, automatización y
-                    más</p>
+
+
+                <ol class="relative">
+                    <li class="mb-4">
+                        <h3 class="font-semibold text-gray-900">¿Qué es Python?
+                        </h3>
+                        <p class="mb-2 text-base font-normal text-gray-700">Python es un lenguaje de programación de
+                            alto nivel, interpretado y de propósito general, conocido por su simplicidad y legibilidad.
+                            Fue creado por <i class="font-semibold">Guido van Rossum</i> en 1991 y se utiliza
+                            ampliamente en diversas áreas como
+                            desarrollo web, análisis de datos, inteligencia artificial, automatización y más.</p>
+                        <div class="relative border-s border-gray-200 ">
+                            <h3 class="font-medium text-blue-800 mx-4">Lenguaje interpretado
+                            </h3>
+                            <p class="text-base font-normal text-gray-700 mx-4 mb-2">Python es un lenguaje interpretado,
+                                lo
+                                que significa que su código no necesita ser compilado antes de ejecutarse. En lugar de
+                                traducirse a lenguaje máquina de inmediato, se ejecuta a través de un intérprete, lo que
+                                lo hace más flexible y portátil. Sin embargo, esto puede hacer que sea más lento en
+                                comparación con lenguajes compilados. Python también genera archivos <b>.pyc o .pyo</b>
+                                (bytecode) para optimizar la ejecución en futuras ocasiones.</p>
+                            <h3 class="font-medium text-blue-800 mx-4">Tipado dinámico
+                            </h3>
+                            <p class="text-base font-normal text-gray-700 mx-4 mb-2">Python no requiere que especifiques
+                                el tipo
+                                de dato de una variable al declararla. En su lugar, el tipo se asigna en tiempo de
+                                ejecución según el valor que se le asigne. Esto permite mayor flexibilidad, pero también
+                                puede llevar a errores si el tipo de dato cambia inesperadamente.</p>
+                            <h3 class="font-medium text-blue-800 mx-4">Fuertemente tipado
+                            </h3>
+                            <p class="text-base font-normal text-gray-700 mx-4 mb-2">Aunque Python permite el tipado
+                                dinámico, no permite operar directamente entre diferentes tipos de datos sin conversión
+                                explícita. Por ejemplo, si intentas sumar "9" + 8, obtendrás un error, ya que "9" es una
+                                cadena y 8 es un número. Para operar con ellos, tendrías que hacer una conversión, como
+                                int("9") + 8.</p>
+                            <h3 class="font-medium text-blue-800 mx-4">Multiplataforma
+                            </h3>
+                            <p class="text-base font-normal text-gray-700 mx-4 mb-2">El intérprete de Python está
+                                disponible en una gran variedad de sistemas operativos, incluyendo Windows, macOS, Linux
+                                y otros. Mientras no se usen librerías específicas de una plataforma en particular, el
+                                código de Python puede ejecutarse sin cambios en cualquier sistema.</p>
+                            <h3 class="font-medium text-blue-800 mx-4">Orientado a objetos
+                            </h3>
+                            <p class="text-base font-normal text-gray-700 mx-4 mb-2">Python sigue el paradigma de
+                                programación orientada a objetos, lo que significa que permite organizar el código en
+                                <b>clases y objetos</b> para representar conceptos del mundo real. Esto facilita la
+                                reutilización de código y la modularidad. Además, Python combina otros paradigmas como
+                                la programación imperativa y la funcional, lo que le da gran versatilidad.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="mb-4">
+                        <h3 class="font-semibold text-gray-900">¿Por qué usar Python?
+                        </h3>
+                        <p class="mb-2 text-base font-normal text-gray-700">Python es un lenguaje de programación de
+                            alto nivel, interpretado y de propósito general, conocido por su simplicidad y legibilidad.
+                            Fue creado por <i class="font-semibold">Guido van Rossum</i> en 1991 y se utiliza
+                            ampliamente en diversas áreas como
+                            desarrollo web, análisis de datos, inteligencia artificial, automatización y más.</p>
+                    </li>
+                </ol>
             </div>
 
         </div>
